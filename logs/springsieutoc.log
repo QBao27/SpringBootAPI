@@ -1,0 +1,85 @@
+2026-04-29T13:04:46.587+07:00  INFO 12028 --- [springsieutoc] [restartedMain] v.h.s.SpringsieutocApplication           : Starting SpringsieutocApplication using Java 25.0.2 with PID 12028 (D:\2026 - 2027\Hoc_Spring\04-spring-sieutoc-restful-starter\target\classes started by acer in D:\2026 - 2027\Hoc_Spring\04-spring-sieutoc-restful-starter)
+2026-04-29T13:04:46.587+07:00  INFO 12028 --- [springsieutoc] [restartedMain] v.h.s.SpringsieutocApplication           : The following 1 profile is active: "prod"
+2026-04-29T13:04:46.715+07:00  INFO 12028 --- [springsieutoc] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-29T13:04:46.728+07:00  INFO 12028 --- [springsieutoc] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 6 JPA repository interfaces.
+2026-04-29T13:04:46.825+07:00  INFO 12028 --- [springsieutoc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-04-29T13:04:46.826+07:00  INFO 12028 --- [springsieutoc] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-29T13:04:46.827+07:00  INFO 12028 --- [springsieutoc] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2026-04-29T13:04:46.843+07:00  INFO 12028 --- [springsieutoc] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2026-04-29T13:04:46.843+07:00  INFO 12028 --- [springsieutoc] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 255 ms
+2026-04-29T13:04:46.882+07:00  INFO 12028 --- [springsieutoc] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-29T13:04:46.885+07:00  INFO 12028 --- [springsieutoc] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-04-29T13:04:46.889+07:00  INFO 12028 --- [springsieutoc] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-29T13:04:46.890+07:00  INFO 12028 --- [springsieutoc] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Starting...
+2026-04-29T13:04:46.893+07:00  INFO 12028 --- [springsieutoc] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-14 - Added connection com.mysql.cj.jdbc.ConnectionImpl@70d35118
+2026-04-29T13:04:46.893+07:00  INFO 12028 --- [springsieutoc] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Start completed.
+2026-04-29T13:04:46.894+07:00  WARN 12028 --- [springsieutoc] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-04-29T13:04:46.894+07:00  INFO 12028 --- [springsieutoc] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-14)']
+	Database driver: undefined/unknown
+	Database version: 5.5.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-29T13:04:46.944+07:00  INFO 12028 --- [springsieutoc] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-29T13:04:46.975+07:00  INFO 12028 --- [springsieutoc] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-29T13:04:47.123+07:00  WARN 12028 --- [springsieutoc] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-29T13:04:47.136+07:00  INFO 12028 --- [springsieutoc] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-04-29T13:04:47.326+07:00  INFO 12028 --- [springsieutoc] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-04-29T13:04:47.337+07:00  INFO 12028 --- [springsieutoc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-04-29T13:04:47.339+07:00  INFO 12028 --- [springsieutoc] [restartedMain] v.h.s.SpringsieutocApplication           : Started SpringsieutocApplication in 0.845 seconds (process running for 6609.808)
+2026-04-29T13:04:47.340+07:00  INFO 12028 --- [springsieutoc] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-04-29T13:04:47.340+07:00  WARN 12028 --- [springsieutoc] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-29T13:04:47.340+07:00  WARN 12028 --- [springsieutoc] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-29T13:09:15.608+07:00  INFO 12028 --- [springsieutoc] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-04-29T13:09:15.609+07:00  INFO 12028 --- [springsieutoc] [Thread-58] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-29T13:09:15.620+07:00  INFO 12028 --- [springsieutoc] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-04-29T13:09:15.622+07:00  INFO 12028 --- [springsieutoc] [Thread-58] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-29T13:09:15.623+07:00  INFO 12028 --- [springsieutoc] [Thread-58] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown initiated...
+2026-04-29T13:09:15.624+07:00  INFO 12028 --- [springsieutoc] [Thread-58] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown completed.
+2026-04-29T13:09:15.693+07:00  INFO 12028 --- [springsieutoc] [restartedMain] v.h.s.SpringsieutocApplication           : Starting SpringsieutocApplication using Java 25.0.2 with PID 12028 (D:\2026 - 2027\Hoc_Spring\04-spring-sieutoc-restful-starter\target\classes started by acer in D:\2026 - 2027\Hoc_Spring\04-spring-sieutoc-restful-starter)
+2026-04-29T13:09:15.693+07:00  INFO 12028 --- [springsieutoc] [restartedMain] v.h.s.SpringsieutocApplication           : The following 1 profile is active: "prod"
+2026-04-29T13:09:15.844+07:00  INFO 12028 --- [springsieutoc] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-29T13:09:15.857+07:00  INFO 12028 --- [springsieutoc] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 6 JPA repository interfaces.
+2026-04-29T13:09:15.945+07:00  INFO 12028 --- [springsieutoc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-04-29T13:09:15.947+07:00  INFO 12028 --- [springsieutoc] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-29T13:09:15.947+07:00  INFO 12028 --- [springsieutoc] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2026-04-29T13:09:15.964+07:00  INFO 12028 --- [springsieutoc] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2026-04-29T13:09:15.964+07:00  INFO 12028 --- [springsieutoc] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 269 ms
+2026-04-29T13:09:16.008+07:00  INFO 12028 --- [springsieutoc] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-29T13:09:16.010+07:00  INFO 12028 --- [springsieutoc] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-04-29T13:09:16.016+07:00  INFO 12028 --- [springsieutoc] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-29T13:09:16.016+07:00  INFO 12028 --- [springsieutoc] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Starting...
+2026-04-29T13:09:16.019+07:00  INFO 12028 --- [springsieutoc] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-15 - Added connection com.mysql.cj.jdbc.ConnectionImpl@685f4ef0
+2026-04-29T13:09:16.019+07:00  INFO 12028 --- [springsieutoc] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Start completed.
+2026-04-29T13:09:16.020+07:00  WARN 12028 --- [springsieutoc] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-04-29T13:09:16.020+07:00  INFO 12028 --- [springsieutoc] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-15)']
+	Database driver: undefined/unknown
+	Database version: 5.5.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-29T13:09:16.081+07:00  INFO 12028 --- [springsieutoc] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-29T13:09:16.122+07:00  INFO 12028 --- [springsieutoc] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-29T13:09:16.275+07:00  WARN 12028 --- [springsieutoc] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-29T13:09:16.289+07:00  INFO 12028 --- [springsieutoc] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-04-29T13:09:16.511+07:00  INFO 12028 --- [springsieutoc] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-04-29T13:09:16.521+07:00  INFO 12028 --- [springsieutoc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-04-29T13:09:16.525+07:00  INFO 12028 --- [springsieutoc] [restartedMain] v.h.s.SpringsieutocApplication           : Started SpringsieutocApplication in 0.858 seconds (process running for 6878.992)
+2026-04-29T13:09:16.525+07:00  INFO 12028 --- [springsieutoc] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-04-29T13:09:16.526+07:00  WARN 12028 --- [springsieutoc] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-29T13:09:16.526+07:00  WARN 12028 --- [springsieutoc] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-29T13:09:19.637+07:00  INFO 12028 --- [springsieutoc] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-29T13:09:19.637+07:00  INFO 12028 --- [springsieutoc] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-29T13:09:19.638+07:00  INFO 12028 --- [springsieutoc] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-04-29T13:09:19.646+07:00  INFO 12028 --- [springsieutoc] [http-nio-8080-exec-2] v.h.s.controller.AuthController          : Attempting authentication for user: quocbao272004@gmail.com
+2026-04-29T13:09:19.646+07:00 ERROR 12028 --- [springsieutoc] [http-nio-8080-exec-2] v.h.s.controller.AuthController          : This is a test error log for user: quocbao272004@gmail.com
+2026-04-29T13:22:14.366+07:00  INFO 12028 --- [springsieutoc] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-04-29T13:22:14.367+07:00  INFO 12028 --- [springsieutoc] [Thread-64] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-29T13:22:14.377+07:00  INFO 12028 --- [springsieutoc] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-04-29T13:22:14.379+07:00  INFO 12028 --- [springsieutoc] [Thread-64] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-29T13:22:14.380+07:00  INFO 12028 --- [springsieutoc] [Thread-64] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown initiated...
+2026-04-29T13:22:14.381+07:00  INFO 12028 --- [springsieutoc] [Thread-64] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown completed.
